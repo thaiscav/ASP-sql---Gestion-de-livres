@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+
+
+    <div class="row">
+        <div class="col-md-4">
+            <h2>Membres</h2>
+
+            <p>@Html.ActionLink("+ Gestion de Membres", "Index", "Membres")</p>
+            <p>@Html.ActionLink("+ Ajouter Membre", "Create", "Membres")</p>
+        </div>
+
+        <div class="col-md-4">
+            <h2>Livres</h2>
+
+            <p>@Html.ActionLink("+ Gestion de Livres", "Index", "Livres")</p>
+            <p>@Html.ActionLink("+ Ajouter Livre", "Create", "Livres")</p>
+        </div>
+
+            <div class="col-md-4">
+                <h2>Prêts</h2>
+
+                <p>@Html.ActionLink("+ Gestion de Prêts", "Index", "Emprunts")</p>
+                <p>@Html.ActionLink("+ Faire un Prêt", "Create", "Emprunts")</p>
+            </div>
+
+        <!--TEXT / ACTION / CONTROLLER-->
+        
+            <div class="col-md-4">
+                <h2>Historique de Prêts</h2>
+
+                <p>@Html.ActionLink("+ Historique de Prêts", "DetailEmprunt", "Home")</p>
+            </div>
+        
+        </div>
+</div>

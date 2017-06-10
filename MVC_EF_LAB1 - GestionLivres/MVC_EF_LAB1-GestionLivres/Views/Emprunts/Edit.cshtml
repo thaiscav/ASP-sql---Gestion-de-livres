@@ -1,0 +1,57 @@
+﻿@model MVC_EF_LAB1_GestionLivres.Models.Emprunt
+
+@{
+    ViewBag.Title = "Edit";
+}
+
+<h2>Retourner le livre</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+    
+    <div class="form-horizontal">
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+        @Html.HiddenFor(model => model.id_emprunt)
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.id_membre, "Membre: ", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("id_membre", ViewBag.id_membre as List<SelectListItem>, null, htmlAttributes: new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.id_livre, "Titre", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.DropDownList("id_livre", ViewBag.id_livre as List<SelectListItem>, null, htmlAttributes: new { @class = "form-control" })
+            </div>
+        </div>
+
+    <div class="form-group">
+        @Html.HiddenFor(model => model.dt_pret, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.HiddenFor(model => model.dt_pret, new { htmlAttributes = new { @class = "form-control" } })
+          </div>
+    </div>
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.dt_retour, "Date de retour: ", htmlAttributes: new { @class = "control-label col-md-2" })
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.dt_retour, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.dt_retour, "La date de retour doit être supérieure à la date du prêt", new { @class = "text-danger" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-10">
+                <input type="submit" value="Save" class="btn btn-default" />
+            </div>
+        </div>
+    </div>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

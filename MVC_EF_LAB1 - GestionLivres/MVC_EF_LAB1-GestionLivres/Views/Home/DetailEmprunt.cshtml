@@ -1,0 +1,45 @@
+﻿@model IEnumerable<MVC_EF_LAB1_GestionLivres.ViewModel.DetailEmprunt>
+
+@{
+    ViewBag.Title = "Detail_Emprunt";
+}
+
+<h2>Historique des prêts:</h2>
+
+
+<table class="table table-striped table-hover text-capitalize">
+    <tr>
+        <th>Membre:</th>
+        <th></th>
+        <th></th>
+        <th>Total de livres:</th>
+        <th></th>
+        <th>Emprunté le:</th>
+        <th>Retourné le</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @item.id_membre
+            </td>
+            <td>
+                @item.prenom_membre
+            </td>
+            <td>
+                @item.nom_membre
+            </td>
+            <td>
+                @item.total_emprunt
+            </td>
+            <td>
+                
+            </td>
+            <td>
+                
+            </td>
+        </tr>
+    }
+
+</table>

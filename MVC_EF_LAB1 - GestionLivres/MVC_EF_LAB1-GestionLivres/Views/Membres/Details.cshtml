@@ -1,0 +1,111 @@
+﻿@model MVC_EF_LAB1_GestionLivres.Models.Membre
+
+@{
+    ViewBag.Title = "Details de Membre";
+}
+
+<h2>Détails de Membre</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal text-uppercase">
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prenom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prenom)
+        </dd>
+
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adress.numéro_civique)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adress.numéro_civique)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adress.rue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adress.rue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adress.ville)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adress.ville)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Adress.code_postal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Adress.code_postal)
+        </dd>
+
+
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => model.tel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.tel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.courriel)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.courriel)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.sex)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.sex)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dt_naissance)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dt_naissance)
+        </dd>
+
+        <dt>
+            @Html.Label("Nombre de livres empruntés")
+        </dt>
+
+        <dd>
+            
+        </dd>
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_membre }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

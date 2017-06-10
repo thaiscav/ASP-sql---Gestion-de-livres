@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BibliothequeModelStoreContainer" CdmEntityContainer="BibliothequeEntities">
+    <EntitySetMapping Name="Adresses">
+      <EntityTypeMapping TypeName="BibliothequeModel.Adress">
+        <MappingFragment StoreEntitySet="Adress">
+          <ScalarProperty Name="id_adress" ColumnName="id_adress" />
+          <ScalarProperty Name="numéro_civique" ColumnName="numéro_civique" />
+          <ScalarProperty Name="rue" ColumnName="rue" />
+          <ScalarProperty Name="ville" ColumnName="ville" />
+          <ScalarProperty Name="code_postal" ColumnName="code_postal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Emprunts">
+      <EntityTypeMapping TypeName="BibliothequeModel.Emprunt">
+        <MappingFragment StoreEntitySet="Emprunt">
+          <ScalarProperty Name="id_emprunt" ColumnName="id_emprunt" />
+          <ScalarProperty Name="id_membre" ColumnName="id_membre" />
+          <ScalarProperty Name="id_livre" ColumnName="id_livre" />
+          <ScalarProperty Name="dt_pret" ColumnName="dt_pret" />
+          <ScalarProperty Name="dt_retour" ColumnName="dt_retour" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Livres">
+      <EntityTypeMapping TypeName="BibliothequeModel.Livre">
+        <MappingFragment StoreEntitySet="Livres">
+          <ScalarProperty Name="id_livre" ColumnName="id_livre" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="auteur" ColumnName="auteur" />
+          <ScalarProperty Name="annee" ColumnName="annee" />
+          <ScalarProperty Name="editeur" ColumnName="editeur" />
+          <ScalarProperty Name="categorie" ColumnName="categorie" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Membres">
+      <EntityTypeMapping TypeName="BibliothequeModel.Membre">
+        <MappingFragment StoreEntitySet="Membres">
+          <ScalarProperty Name="id_membre" ColumnName="id_membre" />
+          <ScalarProperty Name="nom" ColumnName="nom" />
+          <ScalarProperty Name="prenom" ColumnName="prenom" />
+          <ScalarProperty Name="id_adress" ColumnName="id_adress" />
+          <ScalarProperty Name="tel" ColumnName="tel" />
+          <ScalarProperty Name="courriel" ColumnName="courriel" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="dt_naissance" ColumnName="dt_naissance" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

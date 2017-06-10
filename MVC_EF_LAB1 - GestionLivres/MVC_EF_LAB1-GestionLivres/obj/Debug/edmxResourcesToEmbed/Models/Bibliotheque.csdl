@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BibliothequeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Adress">
+    <Key>
+      <PropertyRef Name="id_adress" />
+    </Key>
+    <Property Name="id_adress" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="numéro_civique" Type="Int32" Nullable="false" />
+    <Property Name="rue" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="ville" Type="String" MaxLength="10" FixedLength="true" Unicode="true" Nullable="false" />
+    <Property Name="code_postal" Type="String" MaxLength="10" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Membres" Relationship="Self.FK_id_adress" FromRole="Adress" ToRole="Membres" />
+  </EntityType>
+  <EntityType Name="Emprunt">
+    <Key>
+      <PropertyRef Name="id_emprunt" />
+    </Key>
+    <Property Name="id_emprunt" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="id_membre" Type="Int32" Nullable="false" />
+    <Property Name="id_livre" Type="Int32" Nullable="false" />
+    <Property Name="dt_pret" Type="DateTime" Precision="3" />
+    <Property Name="dt_retour" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Livre" Relationship="Self.FK__Emprunt__id_livr__29572725" FromRole="Emprunt" ToRole="Livres" />
+    <NavigationProperty Name="Membre" Relationship="Self.FK__Emprunt__id_memb__7A672E12" FromRole="Emprunt" ToRole="Membres" />
+  </EntityType>
+  <EntityType Name="Livre">
+    <Key>
+      <PropertyRef Name="id_livre" />
+    </Key>
+    <Property Name="id_livre" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISBN" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="nom" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="auteur" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="annee" Type="Int32" />
+    <Property Name="editeur" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="categorie" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Emprunts" Relationship="Self.FK__Emprunt__id_livr__29572725" FromRole="Livres" ToRole="Emprunt" />
+  </EntityType>
+  <EntityType Name="Membre">
+    <Key>
+      <PropertyRef Name="id_membre" />
+    </Key>
+    <Property Name="id_membre" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nom" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="prenom" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="id_adress" Type="Int32" />
+    <Property Name="tel" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="courriel" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="sex" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="dt_naissance" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Adress" Relationship="Self.FK_id_adress" FromRole="Membres" ToRole="Adress" />
+    <NavigationProperty Name="Emprunts" Relationship="Self.FK__Emprunt__id_memb__7A672E12" FromRole="Membres" ToRole="Emprunt" />
+  </EntityType>
+  <Association Name="FK_id_adress">
+    <End Role="Adress" Type="Self.Adress" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Membres" Type="Self.Membre" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Adress">
+        <PropertyRef Name="id_adress" />
+      </Principal>
+      <Dependent Role="Membres">
+        <PropertyRef Name="id_adress" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Emprunt__id_livr__29572725">
+    <End Role="Livres" Type="Self.Livre" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Emprunt" Type="Self.Emprunt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Livres">
+        <PropertyRef Name="id_livre" />
+      </Principal>
+      <Dependent Role="Emprunt">
+        <PropertyRef Name="id_livre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Emprunt__id_memb__7A672E12">
+    <End Role="Membres" Type="Self.Membre" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="Emprunt" Type="Self.Emprunt" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Membres">
+        <PropertyRef Name="id_membre" />
+      </Principal>
+      <Dependent Role="Emprunt">
+        <PropertyRef Name="id_membre" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="BibliothequeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Adresses" EntityType="Self.Adress" />
+    <EntitySet Name="Emprunts" EntityType="Self.Emprunt" />
+    <EntitySet Name="Livres" EntityType="Self.Livre" />
+    <EntitySet Name="Membres" EntityType="Self.Membre" />
+    <AssociationSet Name="FK_id_adress" Association="Self.FK_id_adress">
+      <End Role="Adress" EntitySet="Adresses" />
+      <End Role="Membres" EntitySet="Membres" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Emprunt__id_livr__29572725" Association="Self.FK__Emprunt__id_livr__29572725">
+      <End Role="Livres" EntitySet="Livres" />
+      <End Role="Emprunt" EntitySet="Emprunts" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Emprunt__id_memb__7A672E12" Association="Self.FK__Emprunt__id_memb__7A672E12">
+      <End Role="Membres" EntitySet="Membres" />
+      <End Role="Emprunt" EntitySet="Emprunts" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

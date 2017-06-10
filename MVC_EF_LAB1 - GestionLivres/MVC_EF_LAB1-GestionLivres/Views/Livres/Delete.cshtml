@@ -1,0 +1,72 @@
+﻿@model MVC_EF_LAB1_GestionLivres.Models.Livre
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Effacer Livre</h2>
+
+<h3>Vous êtes sûr de vouloir supprimer ce Livre?</h3>
+</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal text-uppercase">
+        <dt>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.auteur)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.auteur)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.annee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.annee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.editeur)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.editeur)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categorie)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

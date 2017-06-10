@@ -1,0 +1,55 @@
+﻿@model MVC_EF_LAB1_GestionLivres.Models.Emprunt
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Supprimer Prêt</h2>
+
+<h3>Vous êtes sûr de vouloir supprimer ce prêt?</h3>
+<div>
+    <hr />
+    <dl class="dl-horizontal text-uppercase">
+        <dt>
+            @Html.DisplayNameFor(model => model.dt_pret)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dt_pret)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dt_retour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dt_retour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Livre.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Livre.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Membre.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Membre.nom)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,177 @@
+﻿@model IEnumerable<MVC_EF_LAB1_GestionLivres.Models.Membre>
+
+@{
+    ViewBag.Title = "Gestion_Membres";
+}
+
+<h2>Gestion de Membres</h2>
+<p>
+    @Html.ActionLink("Ajouter nouveau membre", "Create")
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Membres", FormMethod.Get))
+    {
+        <text>Recherche par Code de Membre: </text>
+        @Html.TextBox("id_membre", "", new SelectList(ViewBag.id_membre))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Membres", FormMethod.Get))
+    {
+        <text>Recherche par Prénom, Nom ou Courriel: </text>
+        @Html.TextBox("nom", "", new SelectList(ViewBag.nom))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Membres", FormMethod.Get))
+    {
+        <text>Recherche par Telephone : </text>
+        @Html.TextBox("tel", "", new SelectList(ViewBag.Tel))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Membres", FormMethod.Get))
+    {
+        <text>Recherche par Ville: </text>
+        @Html.TextBox("ville", "", new SelectList(ViewBag.Ville))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Membres", FormMethod.Get))
+    {
+        <text>Recherche par Sexe: </text>
+            <label>@Html.RadioButton("sexe", "", true, new SelectList(ViewBag.Sexe))Tous</label>
+            <label>@Html.RadioButton("sexe", "F", new SelectList(ViewBag.Sexe))Féminin</label> //new { onclick = "showResult(radio)" }
+            <label>@Html.RadioButton("sexe", "H", new SelectList(ViewBag.Sexe))Masculin</label>
+            <input type="submit" value="OK">
+     }
+</p>
+
+<table class="table table-responsive table-striped table-hover text-capitalize">
+    <tr>
+        
+        <th>
+            @*Html.ActionLink("Id", "Index", new { ordenation = ViewBag.IdParam })*@
+            @Html.DisplayNameFor(model => model.id_membre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.prenom)
+        </th>
+        <th>
+            @*Html.ActionLink("Nom", "Index", new { ordenation = ViewBag.NomParam})*@
+            @Html.DisplayNameFor(model => model.nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adress.numéro_civique)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adress.rue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adress.ville)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Adress.code_postal)
+        </th>
+
+
+        <th>
+            @Html.DisplayNameFor(model => model.tel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.courriel)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.sex)
+        </th>
+        <th>
+            @*Html.ActionLink("Date de naissance", "Index", new { ordenation = ViewBag.DateParam })*@
+            @Html.DisplayNameFor(model => model.dt_naissance)
+        </th>
+        <th>
+            @Html.Label("Prêts en cours")
+        </th>
+        <th>
+            @Html.Label("Prêts en retard")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_membre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.prenom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adress.numéro_civique)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adress.rue)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adress.ville)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Adress.code_postal)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.tel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.courriel)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.sex)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dt_naissance)
+        </td>
+        <td>
+            @{
+                System.Threading.Thread.Sleep(1000);
+            }
+            @MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.detailsEmprunts(item.id_membre)["nbLivreEmp"]
+        </td>
+        <td>
+            @{
+                System.Threading.Thread.Sleep(1000);
+            }
+            @MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.detailsEmprunts(item.id_membre)["nbLivreRetard"]
+        </td>
+
+        <td>
+            @Html.ActionLink("Modifier", "Edit", new { id=item.id_membre }) |
+            @Html.ActionLink("Détails", "Details", new { id=item.id_membre }) |
+            <br />
+            @Html.ActionLink("Suprimmer", "Delete", new { id_m=item.id_membre , id_a = item.id_adress }) |
+            @Html.ActionLink("Emprunts", "List", new { id=item.id_membre})
+        </td>
+    </tr>
+}
+
+</table>
+
+<script type="text/javascript">
+        function showResult(radio) {
+            var selected = radio.value;
+            if (selected == "F")
+            {
+             @{ViewBag.Sexe = "F"; }
+            }
+            if (selected == "H")
+            {
+             @{ViewBag.Sexe = "H";}
+            }
+}
+</script>

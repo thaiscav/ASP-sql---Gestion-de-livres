@@ -1,0 +1,65 @@
+﻿@model MVC_EF_LAB1_GestionLivres.Models.Livre
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Détails de Titre</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal text-uppercase">
+        <dt>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.auteur)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.auteur)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.annee)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.annee)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.editeur)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.editeur)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.categorie)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.categorie)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_livre }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

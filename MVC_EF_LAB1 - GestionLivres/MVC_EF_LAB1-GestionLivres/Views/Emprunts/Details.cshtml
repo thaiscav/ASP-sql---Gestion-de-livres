@@ -1,0 +1,80 @@
+﻿@model MVC_EF_LAB1_GestionLivres.Models.Emprunt
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Détails de Prêt</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal text-uppercase">
+        <dt>
+            @Html.DisplayNameFor(model => model.dt_pret)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dt_pret)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.dt_retour)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.dt_retour)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Livre.ISBN)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Livre.ISBN)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Livre.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Livre.nom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Membre.prenom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Membre.prenom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Membre.nom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Membre.nom)
+        </dd>
+
+        <dt>
+            @Html.Label("Jours de retard")
+        </dt>
+
+        <dd>
+            @MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.detailsRetard(Model.id_livre)["joursRetard"]
+        </dd>
+
+        <dt>
+            @Html.Label("Frais de retard")
+        </dt>
+
+        <dd>
+            @MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.detailsRetard(Model.id_livre)["fraiRetard"]$
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

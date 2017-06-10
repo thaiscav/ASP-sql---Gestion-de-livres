@@ -1,0 +1,274 @@
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Collections.Immutable.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe.config
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll.config
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.pdb
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.Web.Infrastructure.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\WebGrease.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.pdb
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.xml
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.csprojResolveAssemblyReference.cache
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.dll
+c:\users\thais\documents\visual studio 2015\Projects\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\WebGrease.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.csprojResolveAssemblyReference.cache
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - teste v2\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\WebGrease.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.csprojResolveAssemblyReference.cache
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csi.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csi.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.AppContext.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.Mvc.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.Mvc.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\csi.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\csi.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.AppContext.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll.config
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\PagedList.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\PagedList.Mvc.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\WebGrease.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\PagedList.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\PagedList.Mvc.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.csprojResolveAssemblyReference.cache
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web II\MVC_EF_LAB1-GestionLivres - vf\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csc.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csi.exe
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\csi.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.AppContext.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\vbc.rsp
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll.config
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\MVC_EF_LAB1-GestionLivres.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.Mvc.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\WebGrease.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Antlr3.Runtime.pdb
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\EntityFramework.SqlServer.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\Newtonsoft.Json.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\PagedList.Mvc.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Helpers.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Mvc.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Optimization.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Deployment.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\bin\System.Web.WebPages.Razor.xml
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.csprojResolveAssemblyReference.cache
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.dll
+C:\Users\thais\Box Sync\Mes Projects\Web\ASP sql - mvc Gestion de livres\MVC_EF_LAB1 - GestionLivres\MVC_EF_LAB1-GestionLivres\obj\Debug\MVC_EF_LAB1-GestionLivres.pdb

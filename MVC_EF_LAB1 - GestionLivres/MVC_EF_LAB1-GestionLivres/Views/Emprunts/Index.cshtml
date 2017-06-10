@@ -1,0 +1,153 @@
+﻿@model IEnumerable<MVC_EF_LAB1_GestionLivres.Models.Emprunt>
+
+@{
+    ViewBag.Title = "Emprunts";
+}
+
+<h2>Gestion de Prêts</h2>
+
+<p>
+    @Html.ActionLink("Emprunter un Livre", "Create")
+</p>
+
+ <p>
+    @using (Html.BeginForm("Index", "Emprunts", FormMethod.Get))
+    {
+        <text>Recherche par Membre : </text>
+        @Html.TextBox("prenomNom", "", new SelectList(ViewBag.prenomNom))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "", "Emprunts", FormMethod.Get))
+    {
+        <text>Recherche par Titre : </text>
+        @Html.TextBox("nom", "", new SelectList(ViewBag.titre))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "", "Emprunts", FormMethod.Get))
+    {
+        <text>Recherche par ISBN : </text>
+        @Html.TextBox("ISBN", "", new SelectList(ViewBag.ISBN))
+        <input type="submit" value="OK" />
+    }
+</p>
+
+<table class="table table-striped table-hover text-capitalize"> <!--text-uppercase-->
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Livre.id_livre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Livre.ISBN)
+            @*Html.ActionLink("ISBN", "OrdennerIsbn", new { ordenation = ViewBag.ISBN })*@
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Livre.nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Membre.id_membre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Membre.prenom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Membre.nom)
+        </th>
+        <th>
+            @*Html.ActionLink("Par date Emprunt", "OrdennerDate", new { ordination = ViewBag.dt_pret })*@
+            @Html.DisplayNameFor(model => model.dt_pret)
+        </th>
+        <th>
+            @Html.Label("Date de retour previste")
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dt_retour)
+        </th>
+        <th>
+            @Html.Label("Jours de Retard")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Livre.id_livre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Livre.ISBN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Livre.nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Membre.id_membre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Membre.prenom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Membre.nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dt_pret)
+        </td>
+        <td>
+            @{ 
+                System.Threading.Thread.Sleep(1000);
+
+                string dt_previste = MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.db.Database.SqlQuery<DateTime>
+                            ("SELECT TOP 1 dt_pret + 3 FROM Emprunt WHERE id_livre = {0} AND id_membre = {1} ORDER BY dt_pret DESC", item.id_livre, item.id_membre).FirstOrDefault().ToString("d");
+            }
+            @Html.Raw(dt_previste)
+            
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dt_retour)
+        </td>
+        <td>
+            @{
+                System.Threading.Thread.Sleep(1000);
+
+                int? joursRetard = null;
+
+                if (item.dt_retour == null)
+                {
+                    joursRetard = MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.db.Database.SqlQuery<int?>
+                    ("SELECT TOP 1 DATEDIFF(DAY, (dt_pret + 3), GETDATE()) FROM Emprunt WHERE id_livre = {0} AND id_membre = {1} ORDER BY dt_pret DESC", item.id_livre, item.id_membre).First();
+
+                }
+                else if (item.dt_retour != null)
+                {
+                    joursRetard = MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.db.Database.SqlQuery<int?>
+                    ("SELECT DATEDIFF(DAY, (dt_pret + 3), dt_retour) FROM Emprunt WHERE id_livre={0} AND id_membre = {1} ORDER BY dt_pret DESC", item.id_livre, item.id_membre).First();
+                }
+
+                if (joursRetard < 0)
+                {
+                    @Html.Raw("0")
+                }
+                else
+                {
+                    @Html.Raw(joursRetard)
+                }
+            }           
+        </td>
+        <td>
+            @Html.ActionLink("Détails", "Details", new { id = item.id_emprunt })
+            @*Html.ActionLink("| Supprimer", "Delete", new { id=item.id_emprunt })*@
+            @{
+                if (item.dt_retour == null)
+                {
+                 @Html.ActionLink("| RETOURNER", "Edit", new { id = item.id_emprunt })
+                }
+            }
+        </td>
+    </tr>
+                }
+
+</<table>

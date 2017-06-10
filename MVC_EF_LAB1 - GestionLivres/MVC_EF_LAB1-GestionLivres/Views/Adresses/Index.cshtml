@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MVC_EF_LAB1_GestionLivres.Models.Adress>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.numéro_civique)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.rue)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ville)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.code_postal)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.numéro_civique)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.rue)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ville)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.code_postal)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.id_adress }) |
+            @Html.ActionLink("Details", "Details", new { id=item.id_adress }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.id_adress })
+        </td>
+    </tr>
+}
+
+</table>

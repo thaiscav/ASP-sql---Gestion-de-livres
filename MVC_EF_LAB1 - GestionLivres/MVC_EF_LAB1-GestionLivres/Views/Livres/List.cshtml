@@ -1,0 +1,53 @@
+﻿@model IEnumerable<MVC_EF_LAB1_GestionLivres.Models.Emprunt>
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>Liste de membres qu'on emprunté le titre @ViewBag.livre </h2>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Membre.id_membre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Membre.prenom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Membre.nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dt_pret)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.dt_retour)
+        </th>
+
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Membre.id_membre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Membre.prenom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Membre.nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dt_pret)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.dt_retour)
+        </td>
+    </tr>
+}
+
+</table>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>

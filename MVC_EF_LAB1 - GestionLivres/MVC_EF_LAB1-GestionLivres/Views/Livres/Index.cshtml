@@ -1,0 +1,115 @@
+﻿@model IEnumerable<MVC_EF_LAB1_GestionLivres.Models.Livre>
+
+@{
+    ViewBag.Title = "Gestion de Livres";
+}
+
+<h2>Gestion de Livres</h2>
+
+<p>
+    @Html.ActionLink("Ajouter nouveau Livre", "Create")
+</p>
+
+<p>
+    @using (Html.BeginForm("Index", "Livres", FormMethod.Get))
+    {
+        <text>Recherche par Titre ou Auteur: </text>
+        @Html.TextBox("titreAuteur", "", new SelectList(ViewBag.TitreAuteur))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Livres", FormMethod.Get))
+    {
+        <text>Recherche par ISBN : </text>
+        @Html.TextBox("isbn", "", new SelectList(ViewBag.Isbn))
+        <input type="submit" value="OK" />
+    }
+</p>
+<p>
+    @using (Html.BeginForm("Index", "Livres", FormMethod.Get))
+    {
+        <text>Recherche par Categorie: </text>
+        @Html.TextBox("categorie", "", new SelectList(ViewBag.Categorie))
+        <input type="submit" value="OK" />
+    }
+</p>
+
+<table class="table table-responsive table-striped table-hover text-capitalize">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.id_livre)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ISBN)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.nom)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.auteur)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.annee)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.editeur)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.categorie)
+        </th>
+        <th>
+            @Html.Label("Status")
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.id_livre)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ISBN)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.nom)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.auteur)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.annee)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.editeur)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.categorie)
+        </td>
+        <td>
+            @{
+                System.Threading.Thread.Sleep(1000);
+
+                int checkLivre = MVC_EF_LAB1_GestionLivres.Models.ControleEmprunt.db.Database.SqlQuery<int>
+                ("SELECT id_livre FROM Emprunt WHERE dt_retour IS NULL AND id_livre=" + item.id_livre).FirstOrDefault();
+
+                if ((checkLivre == item.id_livre))
+                {
+                    ViewBag.dispoble = false;
+                    @Html.Label("*Indisponible*");
+                }
+            }
+            
+        </td>
+        <td>
+            @Html.ActionLink("Modifier", "Edit", new { id=item.id_livre }) |
+            @Html.ActionLink("Détails", "Details", new { id=item.id_livre }) |
+            @Html.ActionLink("Supprimer", "Delete", new { id=item.id_livre }) |
+            @Html.ActionLink("Emprunts", "List", new { id = item.id_livre })
+            
+        </td>
+    </tr>
+}
+
+</table>

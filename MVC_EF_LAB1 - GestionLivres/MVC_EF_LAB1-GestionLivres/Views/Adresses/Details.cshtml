@@ -1,0 +1,50 @@
+﻿@model MVC_EF_LAB1_GestionLivres.Models.Adress
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Adress</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.numéro_civique)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.numéro_civique)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.rue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.rue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ville)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ville)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.code_postal)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.code_postal)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id_adress }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
